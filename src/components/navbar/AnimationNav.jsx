@@ -1,5 +1,5 @@
 // AnimationNav.jsx
-import React, { useState } from "react";
+import { useState } from "react";
 import "./AnimationNav.css";
 import Nav from "./Nav";
 

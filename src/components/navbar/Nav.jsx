@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { menuSlide } from "./anim";
 // import { Link } from "react-router-dom";
 import Jodd from "./Jodd";
+import Magnetic from "../magnet/Magnet";
 // import { Link } from "react-router-dom";
 
 const navItems = [
@@ -68,24 +69,32 @@ function Nav() {
           </div>
 
           <div className="nav-footer">
-            <a
-              href="https://www.linkedin.com/in/ashutosh-parihar-110916281/"
-              target="_blank"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="https://www.instagram.com/ashutosh_parihar___/"
-              target="_blank"
-            >
-              Instagram
-            </a>
-            <a href="https://github.com/ashutoshpariharr" target="_blank">
-              GitHub
-            </a>
-            <a href="https://twitter.com/Ashutos19713007" target="_blank">
-              Twitter
-            </a>
+            <Magnetic>
+              <a
+                href="https://www.linkedin.com/in/ashutosh-parihar-110916281/"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </Magnetic>
+            <Magnetic>
+              <a
+                href="https://www.instagram.com/ashutosh_parihar___/"
+                target="_blank"
+              >
+                Instagram
+              </a>
+            </Magnetic>
+            <Magnetic>
+              <a href="https://github.com/ashutoshpariharr" target="_blank">
+                GitHub
+              </a>
+            </Magnetic>
+            <Magnetic>
+              <a href="https://twitter.com/Ashutos19713007" target="_blank">
+                Twitter
+              </a>
+            </Magnetic>
           </div>
         </div>
       </motion.div>
